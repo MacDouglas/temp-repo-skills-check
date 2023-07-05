@@ -1,0 +1,27 @@
+{
+  "width": 5760,
+  "height": 576,
+  "areas": [
+    {
+      "name": "left",
+      "region": {
+        "x": 0,
+        "y": 0,
+        "width": 2880,
+        "height": 576
+      }
+    },
+    {
+      "name": "right",
+      "region": {
+        "x": 2880,
+        "y": 0,
+        "width": 2880,
+        "height": 576
+      }
+    }
+  ],
+  "createVideo": false,
+  "clean": false,
+  "ffmpegArgs": "-y -r 30 -crf 23" //-y -r 30 -crf 23
+}
